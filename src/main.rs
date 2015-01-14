@@ -1,3 +1,8 @@
+extern crate collections;
+
+use collections::hashmap;
+
 fn main() {
-    println!("Hello, world!");
+    let h = hashmap::HashMap();
+    println!(h);
 }
